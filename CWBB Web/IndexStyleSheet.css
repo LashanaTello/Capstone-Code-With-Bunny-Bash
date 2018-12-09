@@ -1,0 +1,79 @@
+.logout
+{	position: relative;
+	margin: right;
+	display: block;
+	background-color: rgb(50,150,50);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	font-size: 16px;
+	border-radius: 12px;
+}
+
+body {
+	background-color: rgb(137,251,249);
+}
+	
+.title {
+	font-weight: bold;
+	font-style: italic;
+	color: rgb(50,150,50);
+	font-size: 50px;
+    text-align: center;
+	display: block;
+}
+.Bunny {
+				width: 216px;
+				height: 270px;
+				background-image: url("Images/RightBunny.png");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				position: relative;
+				-webkit-animation-name: MovingBunny; /* Safari 4.0 - 8.0 */
+				-webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+				-webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+				animation-name: MovingBunny;
+				animation-duration: 4s;
+				animation-iteration-count: infinite;
+			}
+
+			/* Safari 4.0 - 8.0 */
+			@-webkit-keyframes MovingBunny {
+				0%   {background-image: url("Images/RightBunny.png"); margin:auto; left:-266px; top:0px;}
+				25%  {background-image: url("Images/UpBunny.png"); margin:auto; left:266px; top:0px;}
+				50%  {background-image: url("Images/LeftBunny.png"); margin:auto; left:266px; top:480px;}
+				75%  {background-image: url("Images/DownBunny.png"); margin:auto; left:-266px; top:480px;}
+				100% {background-image: url("Images/RightBunny.png"); margin:auto; left:-266px; top:0px;}
+			}
+			
+			/* Standard syntax */
+			@keyframes MovingBunny {
+				0%   {background-image: url("Images/RightBunny.png"); margin:auto; left:-266px; top:0px;}
+				25%  {background-image: url("Images/UpBunny.png"); margin:auto; left:266px; top:0px;}
+				50%  {background-image: url("Images/LeftBunny.png"); margin:auto; left:266px; top:480px;}
+				75%  {background-image: url("Images/DownBunny.png"); margin:auto; left:-266px; top:480px;}
+				100% {background-image: url("Images/RightBunny.png"); margin:auto; left:-266px; top:0px;}
+			}
+			
+			
+
+.Login, .Register {
+	width: 266px;
+	height: 105px;
+	margin: auto;
+	display :block;
+	background-image: url("Images/carrot.png");
+	background-color: rgb(137,251,249);
+}
+
+#Notification{
+	display: block;
+	margin: auto;	
+    text-align: center;
+}
+
+.LoginForm, .RegisterForm{
+	display: none;
+    text-align: center;
+	margin: auto;
+}

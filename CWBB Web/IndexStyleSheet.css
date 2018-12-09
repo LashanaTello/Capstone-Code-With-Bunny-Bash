@@ -1,5 +1,15 @@
+.Login-Content
+{
+	display : block;
+}
+
 .logout
-{	position: relative;
+{	
+	margin-top: 1px;
+	margin-right: 2px;
+	position:absolute;
+	top:0;
+	right:0;
 	margin: right;
 	display: block;
 	background-color: rgb(50,150,50);

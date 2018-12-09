@@ -1,0 +1,43 @@
+.Instruction-Video
+{
+	display: none;
+	margin : auto;
+}
+
+.Instruction
+{	
+	position: relative;
+	display: block;
+	background-color: rgb(50,150,50);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	font-size: 16px;
+	border-radius: 12px;
+}
+
+.instruction
+{
+	color: rgb(50,150,50);
+	font-size: 40px;
+	display: block;
+}
+
+#ReturnToTop
+{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	font-size: 18px;
+	background-color: white;
+	color: rgb(50,150,50);
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 12px;
+}
+
+#ReturnToTop:hover {
+	background-color: rgb(50,150,50);
+	color: white;
+}

@@ -73,7 +73,9 @@ body {
 	margin: auto;
 	display :block;
 	background-image: url("Images/carrot.png");
+	background-repeat: no-repeat;
 	background-color: rgb(137,251,249);
+	background-size: 100% 100%;
 }
 
 #Notification{

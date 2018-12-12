@@ -27,6 +27,7 @@ function scrollFunction() {
     }
 }
 
+//Return back to the top of the web page
 function ReturnToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;

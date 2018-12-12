@@ -1,3 +1,4 @@
+//Used to generated the Unity loading screen
 //Modified to also Login after WebGL is loaded and clear any Notification.
 function UnityProgress(gameInstance, progress) {
   if (!gameInstance.Module)

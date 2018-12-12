@@ -13,8 +13,8 @@ function showWebGL()
 
 //Close and hide WebGL content and shows Login page
 function Logout()
-{
-	//gameInstance.SendMessage("Canvas","LogOut"); Does not work
+{//Does not work. Logout is a function of a script attached to Canvas in the Unity Game that will close the application.
+	//gameInstance.SendMessage("Canvas","LogOut"); 
 	//hideWebGL();
 	//showLogin();
 	window.location = "index.html";
@@ -23,6 +23,7 @@ function Logout()
 //Login into PlayFab via WebGL
 function loginWebGL()
 {
+	//SendMessage format is (ObjectName, FunctionName, Param). This function will only take one param.
 	gameInstance.SendMessage("Canvas","SetEmail", document.getElementById("email").value);
 	gameInstance.SendMessage("Canvas","SetPass", document.getElementById("password").value);
 	gameInstance.SendMessage("Canvas","Login");	

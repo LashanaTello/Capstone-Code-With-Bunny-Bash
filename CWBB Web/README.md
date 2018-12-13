@@ -14,6 +14,8 @@ Instructions for updating Code With Bunny Bash game for WebGL
 
 6)Build it in a folder that is not with CWBB Web files
 
-7)After it finished building, copy everything in Build to the Build folder in CWBB Web
+7)Make sure there is no .dll files as it will not work
 
-8)Replace all files and the website is now updated with the updated game.
+8)After it finished building, copy everything in Build to the Build folder in CWBB Web
+
+9)Replace all files and the website is now updated with the updated game.

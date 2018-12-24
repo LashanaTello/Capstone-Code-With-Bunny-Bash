@@ -47,7 +47,7 @@ NOTE: .Meta files are not shown in this but there are in Asset folder. .Meta fil
 ├──CodeWithBashBunny Report.pdf		            #Capstone report
 └──README					            #This file
 
-** Instructions for Building Code With Bunny Bash game for iOS
+## Instructions for Building Code With Bunny Bash game for iOS
 
 1)Create a new Unity Project.
 2)Open file explorer to the Unity Project
